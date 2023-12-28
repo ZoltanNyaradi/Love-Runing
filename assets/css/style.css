@@ -86,7 +86,7 @@ main {
 /*Footer*/
 footer {
     /* Make main element take up any surplus space*/
-    background-color: orange;
+    background-color: #ffffff;
 }
 
 /*media query: tablets and larger (786 and up)*/
