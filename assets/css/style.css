@@ -42,6 +42,10 @@ h1, h2, h3{
     color: #252525;
 }
 
+.hiden-heading {
+    display:none;
+}
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -137,6 +141,24 @@ main {
     display:flex;
     align-items: center;
     justify-content:center;
+}
+/* Meet-ups */
+#times{
+    background: url("../image/dublin-city.webp") no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+#times div{
+    color:#fafafa;
+    background-color: rgba(0,0,0,.6);
+    padding:15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border:2px solid white;
+}
+#times h3{
+    color: #fafafa;
 }
 
 /*Footer*/
